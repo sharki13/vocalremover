@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="t5pDpT" name="VocalRemover" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.VocalRemover" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="VocalRemover" pluginDesc="VocalRemover" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="T5pd" pluginChannelConfigs="{1, 1}, {2, 2}"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="VocalRemoverAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.VocalRemover"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.0.2">
+  <MAINGROUP id="pytenu" name="VocalRemover">
+    <GROUP id="{DC993294-F25F-DB4C-17C3-FF3AE67B2279}" name="Source">
+      <FILE id="EqzRih" name="VocalRemoverAudioProcessorEditor.cpp" compile="1"
+            resource="0" file="Source/VocalRemoverAudioProcessorEditor.cpp"/>
+      <FILE id="ZTqJgV" name="VocalRemoverAudioProcessorEditor.h" compile="0"
+            resource="0" file="Source/VocalRemoverAudioProcessorEditor.h"/>
+      <FILE id="VKQCNY" name="VocalRemoverAudioProcessor.cpp" compile="1"
+            resource="0" file="Source/VocalRemoverAudioProcessor.cpp"/>
+      <FILE id="zZif3x" name="VocalRemoverAudioProcessor.h" compile="0" resource="0"
+            file="Source/VocalRemoverAudioProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocalRemover"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocalRemover"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2010 targetFolder="Builds/VisualStudio2010">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocalRemover"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocalRemover"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../sdks/juce_grapefruit_v4/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2010>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS enableCxx11="1"/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
