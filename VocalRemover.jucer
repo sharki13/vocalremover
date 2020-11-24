@@ -22,35 +22,35 @@
         <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_audio_basics" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_core" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_events" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../SDK/JUCE_v604/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_core" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_events" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../SDK/JUCE_v604/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../SDK/JUCE_v604/modules"/>
       </MODULEPATHS>
     </VS2019>
   </EXPORTFORMATS>
   <MODULES>
-    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
-            useGlobalPath="0"/>
-    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <LIVE_SETTINGS>
     <WINDOWS/>
