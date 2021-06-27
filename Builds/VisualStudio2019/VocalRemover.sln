@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalRemover - Standalone Plugin", "VocalRemover_StandalonePlugin.vcxproj", "{E29981B2-FBC6-1F06-A376-CFF908175712}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D} = {2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalRemover - VST3", "VocalRemover_VST3.vcxproj", "{4D81AB09-055B-886B-55F4-11990B4AEED2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D} = {2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VocalRemover - Shared Code", "VocalRemover_SharedCode.vcxproj", "{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D81AB09-055B-886B-55F4-11990B4AEED2}.Debug|x64.ActiveCfg = Debug|x64
+		{4D81AB09-055B-886B-55F4-11990B4AEED2}.Debug|x64.Build.0 = Debug|x64
+		{4D81AB09-055B-886B-55F4-11990B4AEED2}.Release|x64.ActiveCfg = Release|x64
+		{4D81AB09-055B-886B-55F4-11990B4AEED2}.Release|x64.Build.0 = Release|x64
+		{E29981B2-FBC6-1F06-A376-CFF908175712}.Debug|x64.ActiveCfg = Debug|x64
+		{E29981B2-FBC6-1F06-A376-CFF908175712}.Debug|x64.Build.0 = Debug|x64
+		{E29981B2-FBC6-1F06-A376-CFF908175712}.Release|x64.ActiveCfg = Release|x64
+		{E29981B2-FBC6-1F06-A376-CFF908175712}.Release|x64.Build.0 = Release|x64
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}.Debug|x64.ActiveCfg = Debug|x64
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}.Debug|x64.Build.0 = Debug|x64
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}.Release|x64.ActiveCfg = Release|x64
+		{2CD5E87C-F559-3F9B-1DDB-EC4B792EE18D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
